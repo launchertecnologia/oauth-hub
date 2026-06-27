@@ -30,7 +30,7 @@ Não valida licença e não depende de nenhum backend externo. Guarda os apps, c
 - Node.js 18+ (usa `fetch` e `crypto` nativos).
 
 ```bash
-git clone https://github.com/launcherandco/hubapp-meta-hub.git && cd hubapp-meta-hub
+git clone https://github.com/launcherandco/oauth-hub.git && cd oauth-hub
 
 npm install
 cp .env.example .env   # opcional — dá para configurar tudo pelo painel
@@ -55,12 +55,12 @@ docker compose up -d --build
 Sem Compose (build/run direto):
 
 ```bash
-docker build -t hubapp-meta-hub .
-docker run -d --name hubapp-meta-hub \
+docker build -t oauth-hub .
+docker run -d --name oauth-hub \
   --env-file .env -e PORT=3300 \
   -p 3300:3300 \
   -v oauth-hub-data:/app/data \
-  hubapp-meta-hub
+  oauth-hub
 ```
 
 ---
@@ -136,7 +136,7 @@ Licenciado sob a **[GNU Affero General Public License v3.0](./LICENSE)**.
 Por ser um serviço de rede, a AGPL (§13) exige que os usuários que interagem com o
 hub remotamente possam obter o **código-fonte correspondente** da versão em execução.
 O painel exibe um link **"Código-fonte"** no rodapé apontando para o repositório
-(`SOURCE_URL`, padrão <https://github.com/launcherandco/hubapp-meta-hub>). Se você
+(`SOURCE_URL`, padrão <https://github.com/launcherandco/oauth-hub>). Se você
 modificar e publicar uma instância, mantenha esse link acessível e atualizado para a
 sua versão.
 
