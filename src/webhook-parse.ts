@@ -14,7 +14,7 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
-// Source: https://github.com/launcherandco/hubapp-meta-hub
+// Source: https://github.com/launcherandco/oauth-hub
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Normalize a raw Meta webhook payload into a compact feed entry.
