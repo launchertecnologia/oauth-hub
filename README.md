@@ -4,7 +4,7 @@ Hub **standalone**, **multi-app** e **whitelabel** para conectar canais da **Met
 
 Não valida licença e não depende de nenhum backend externo. Guarda os apps, canais e interações localmente (arquivos JSON) e mostra tudo num painel. Ideal para demonstrar o fluxo OAuth + recebimento de webhooks (por exemplo, no vídeo de revisão do app na Meta) e para servir de hub de integração simples.
 
-> Projeto de código aberto da **[Launcher & Co](https://hubapp.pro.br/)**.
+> Projeto de código aberto da **[Launcher Tecnologia](https://hubapp.pro.br/)**.
 
 ---
 
@@ -30,7 +30,7 @@ Não valida licença e não depende de nenhum backend externo. Guarda os apps, c
 - Node.js 18+ (usa `fetch` e `crypto` nativos).
 
 ```bash
-git clone https://github.com/launcherandco/oauth-hub.git && cd oauth-hub
+git clone https://github.com/launchertecnologia/oauth-hub.git && cd oauth-hub
 
 npm install
 cp .env.example .env   # opcional — dá para configurar tudo pelo painel
@@ -137,7 +137,7 @@ Licenciado sob a **[GNU Affero General Public License v3.0](./LICENSE)**.
 Por ser um serviço de rede, a AGPL (§13) exige que os usuários que interagem com o
 hub remotamente possam obter o **código-fonte correspondente** da versão em execução.
 O painel exibe um link **"Código-fonte"** no rodapé apontando para o repositório
-(`SOURCE_URL`, padrão <https://github.com/launcherandco/oauth-hub>). Se você
+(`SOURCE_URL`, padrão <https://github.com/launchertecnologia/oauth-hub>). Se você
 modificar e publicar uma instância, mantenha esse link acessível e atualizado para a
 sua versão.
 
@@ -149,4 +149,4 @@ Este projeto é baseado no **[oauth-hub-zdg](https://github.com/pedroherpeto/oau
 
 ---
 
-Projeto de código aberto mantido pela **[Launcher & Co](https://hubapp.pro.br/)**.
+Projeto de código aberto mantido pela **[Launcher Tecnologia](https://hubapp.pro.br/)**.
