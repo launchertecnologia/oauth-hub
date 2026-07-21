@@ -1,5 +1,5 @@
 // oauth-hub — Standalone whitelabel hub for Meta channels.
-// Copyright (C) 2026 Launcher & Co (hubapp.pro.br)
+// Copyright (C) 2026 Launcher Tecnologia (hubapp.pro.br)
 // Based on oauth-hub-zdg by Comunidade ZDG (https://github.com/pedroherpeto/oauth-hub-zdg)
 //
 // This program is free software: you can redistribute it and/or modify
@@ -14,7 +14,7 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
-// Source: https://github.com/launcherandco/oauth-hub
+// Source: https://github.com/launchertecnologia/oauth-hub
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Global configuration + per-app helpers (multi-app).
@@ -41,7 +41,7 @@ export const FORWARD_TIMEOUT_MS = Math.max(2000, Number(env("FORWARD_TIMEOUT_MS"
 
 // AGPL-3.0 §13: remote users must be able to obtain the Corresponding Source.
 // Set SOURCE_URL env to point to your own public repository.
-export const SOURCE_URL = (env("SOURCE_URL") || "https://github.com/launcherandco/oauth-hub").replace(/\/$/, "");
+export const SOURCE_URL = (env("SOURCE_URL") || "https://github.com/launchertecnologia/oauth-hub").replace(/\/$/, "");
 
 export const SESSION_SECRET = (() => {
   const fromEnv = env("SESSION_SECRET");

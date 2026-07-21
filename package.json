@@ -7,10 +7,10 @@
   "homepage": "https://hubapp.pro.br",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/launcherandco/oauth-hub.git"
+    "url": "git+https://github.com/launchertecnologia/oauth-hub.git"
   },
   "bugs": {
-    "url": "https://github.com/launcherandco/oauth-hub/issues"
+    "url": "https://github.com/launchertecnologia/oauth-hub/issues"
   },
   "main": "dist/index.js",
   "scripts": {
