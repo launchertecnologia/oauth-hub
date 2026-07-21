@@ -1,5 +1,5 @@
 // oauth-hub — Standalone whitelabel hub for Meta channels.
-// Copyright (C) 2026 Launcher & Co (hubapp.pro.br)
+// Copyright (C) 2026 Launcher tecnologia (hubapp.pro.br)
 // Based on oauth-hub-zdg by Comunidade ZDG (https://github.com/pedroherpeto/oauth-hub-zdg)
 //
 // This program is free software: you can redistribute it and/or modify
